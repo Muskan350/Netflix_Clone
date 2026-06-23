@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">NETFLIX</h1>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+
+            <button class="signin-btn">Sign In</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Stranger Things</h2>
+            <p>
+                When a young boy vanishes, a small town uncovers a mystery
+                involving secret experiments, terrifying supernatural forces,
+                and one strange little girl.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="play-btn">▶ Play</button>
+                <button class="info-btn">More Info</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search -->
+    <section class="search-section">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search movies..."
+        />
+    </section>
+
+    <!-- Movie Sections -->
+    <main>
+
+        <section class="movie-section">
+            <h2>Trending Now</h2>
+            <div class="movie-row" id="trending"></div>
+        </section>
+
+        <section class="movie-section">
+            <h2>Popular on Netflix</h2>
+            <div class="movie-row" id="popular"></div>
+        </section>
+
+        <section class="movie-section">
+            <h2>Action Movies</h2>
+            <div class="movie-row" id="action"></div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">FAQ</a>
+            <a href="#">Help Center</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy</a>
+        </div>
+
+        <p>© 2026 Netflix Clone. Educational Project.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
